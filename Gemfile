@@ -5,8 +5,10 @@ gem 'ruby'
 gem 'rails', '4.2.5'
 
 # Use postgresql as the database for production
-gem 'pg'
-gem 'rails_12factor'
+group :development, :test do
+  gem 'sqlite3'
+ end
+gem 'pg', group: :production
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
