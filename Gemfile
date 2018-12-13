@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'ruby','2.4.5'
+gem 'ruby'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5'
+gem 'rails' 
 
 # Use postgresql as the database for production
 group :development, :test do
